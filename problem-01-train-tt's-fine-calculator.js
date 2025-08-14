@@ -28,7 +28,6 @@ function totalFine( fare ) {
     const surchargePercent = 20;
     const serviceCharge = 30;
     const fine = fare + fare * (surchargePercent / 100) + serviceCharge;
-    // return parseFloat(fine.toFixed(2));
     return fine;
 }
 const result = totalFine(19911);
